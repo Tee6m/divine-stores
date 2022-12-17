@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: gainsboro;
+    
+}
+
+.upper{
+    display: grid;
+    margin-left: 40vw;
+}
+.upper img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+}
+.upper .name{
+    padding: 10px 1px;
+    margin-left: 1vw;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.head{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 30px;
+}
+
+.body{
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.body .left{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 6px;
+    
+}
+.body .left .head{
+    background-color: rgb(181, 181, 181);
+}
+
+.body .left ul{
+    padding: 10px 0 10px 40px;
+    list-style: none;
+}  
+.body .left ul li{
+    padding-top: 10px;
+    cursor: pointer;
+    
+} 
+.icon{
+    padding-right: 10px;
+}  
+
+.right  {
+    background-color:  #fff;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 1px 5px solid rgb(181, 181, 181);
+    
+    
+    
+}
+.right1{
+    display: flex;
+}
+.right2{
+    display: flex;
+    margin-top:10px ;
+}
+.rh{
+    border-bottom: 1px solid;
+    padding: 5px 0 5px 15px;
+}
+.right .rbody {
+    background-color: #fff;
+    width: 350px;
+    height: 160px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 7px;
+    
+}
+.right .rbody h3 {
+    border-bottom: 1px solid;
+    font-size: 17px;
+    height: 32px;
+    padding: 4px 0 2px 7px;
+    text-transform: capitalize;
+    
+}
+.right .rbody .rcontainer {
+    padding-left: 10px;
+}
+
+.upload{
+    width: 170px;
+    position: relative;
+    margin: auto;
+}
+
+.upload img{
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+}
+
+.upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00b4ff;
+    color: #fff;
+    width: 47px;
+    height: 47px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upload .round i {
+    margin-top: 6px;
+}
+
+.upload .round input[type="file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+    
+    
+}
+
+input[type="file"]::-webkit-file-upload-button{
+    cursor: pointer;
+}

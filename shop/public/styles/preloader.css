@@ -1,0 +1,26 @@
+.pre{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.disappear{
+    animation: vanish 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
